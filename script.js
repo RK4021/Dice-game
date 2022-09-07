@@ -63,7 +63,7 @@ hold.forEach(hold => {
             changeMainScore(currentScore);
             currentScore = 0;
             changeCurrentScore();
-            if (score >= 20) {
+            if (score >= 100) {
                 document.querySelector(`.player__${chance}`).classList.add('winner');
                 addLooser();
                 playing = false;
